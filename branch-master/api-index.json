@@ -2991,46 +2991,46 @@
    "line":17,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/jmx\/src\/main\/clojure\/clojure\/contrib\/jmx\/client.clj"},
-  {"arglists":[["x"]],
+  {"arglists":[["x", "&", "options"]],
    "name":"json-str",
    "namespace":"clojure.contrib.json",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/d6f6ccfaeac03e35b1f9dbfa04424866cd9b2a41\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L302",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5380552375c8b074d979cb1d1b8a8382bdf8a999\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L305",
    "raw-source-url":
    "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/\/modules\/clojure\/contrib\/json.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/json-api.html#clojure.contrib.json\/json-str",
    "doc":"Converts x to a JSON-formatted string.",
    "var-type":"function",
-   "line":302,
+   "line":305,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj"},
-  {"arglists":[["x"]],
+  {"arglists":[["x", "&", "options"]],
    "name":"pprint-json",
    "namespace":"clojure.contrib.json",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/d6f6ccfaeac03e35b1f9dbfa04424866cd9b2a41\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L339",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5380552375c8b074d979cb1d1b8a8382bdf8a999\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L344",
    "raw-source-url":
    "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/\/modules\/clojure\/contrib\/json.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/json-api.html#clojure.contrib.json\/pprint-json",
    "doc":"Pretty-prints JSON representation of x to *out*",
    "var-type":"function",
-   "line":339,
+   "line":344,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj"},
-  {"arglists":[["x"]],
+  {"arglists":[["x", "&", "options"]],
    "name":"print-json",
    "namespace":"clojure.contrib.json",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/d6f6ccfaeac03e35b1f9dbfa04424866cd9b2a41\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L310",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5380552375c8b074d979cb1d1b8a8382bdf8a999\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L314",
    "raw-source-url":
    "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/\/modules\/clojure\/contrib\/json.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/json-api.html#clojure.contrib.json\/print-json",
    "doc":"Write JSON-formatted output to *out*",
    "var-type":"function",
-   "line":310,
+   "line":314,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj"},
   {"arglists":
@@ -3039,7 +3039,7 @@
    "name":"read-json",
    "namespace":"clojure.contrib.json",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/d6f6ccfaeac03e35b1f9dbfa04424866cd9b2a41\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L186",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5380552375c8b074d979cb1d1b8a8382bdf8a999\/modules\/json\/src\/main\/clojure\/clojure\/contrib\/json.clj#L186",
    "raw-source-url":
    "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/\/modules\/clojure\/contrib\/json.clj",
    "wiki-url":
@@ -3068,7 +3068,7 @@
    "http:\/\/clojure.github.com\/clojure-contrib\/\/json-api.html#clojure.contrib.json\/write-json",
    "namespace":"clojure.contrib.json",
    "var-type":"function",
-   "arglists":[["object", "out"]],
+   "arglists":[["object", "out", "escape-unicode?"]],
    "doc":"Print object to PrintWriter out as JSON",
    "name":"write-json"},
   {"arglists":[[]],
