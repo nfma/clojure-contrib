@@ -26,7 +26,7 @@
       <url>scp://build.clojure.org/srv/www/releases</url>
     </repository>
     <snapshotRepository>
-      <id>clojure-releases</id>
+      <id>clojure-snapshots</id>
       <name>Clojure SNAPSHOT repository</name>
       <url>scp://build.clojure.org/srv/www/snapshots</url>
     </snapshotRepository>
