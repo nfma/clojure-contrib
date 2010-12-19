@@ -54,12 +54,13 @@
   unevaluated form.  Returns nil if read fails or if a ns declaration
   cannot be found.  The ns declaration must be the first Clojure form
   in the file, except for (comment ...)  forms."
-  [^PushbackReader rdr]
-  (try (let [form (read rdr)]
-         (cond
-           (ns-decl? form) form
-           (comment? form) (recur rdr)
-           :else nil))
+  [#^PushbackReader rdr]
+  (try
+   (loop [] (let [form (read rdr)]
+              (cond
+               (ns-decl? form) form
+               (comment? form) (recur)
+               :else nil)))
        (catch Exception e nil)))
 
 (defn read-file-ns-decl
