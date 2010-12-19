@@ -1905,9 +1905,9 @@
    :name "clojure-source-file?",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L28",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L28",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/clojure-source-file?",
    :doc "Returns true if file is a normal file with a .clj extension.",
@@ -1919,9 +1919,9 @@
    :name "clojure-sources-in-jar",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L89",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L89",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/clojure-sources-in-jar",
    :doc
@@ -1934,9 +1934,9 @@
    :name "comment?",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L42",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L42",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/comment?",
    :doc "Returns true if form is a (comment ...)",
@@ -1948,9 +1948,9 @@
    :name "find-clojure-sources-in-dir",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L34",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L34",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-clojure-sources-in-dir",
    :doc
@@ -1963,9 +1963,9 @@
    :name "find-namespaces-in-dir",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L80",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L80",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-namespaces-in-dir",
    :doc
@@ -1978,9 +1978,9 @@
    :name "find-namespaces-in-jarfile",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L113",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L113",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-namespaces-in-jarfile",
    :doc
@@ -1993,9 +1993,9 @@
    :name "find-namespaces-on-classpath",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L132",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L132",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-namespaces-on-classpath",
    :doc
@@ -2008,9 +2008,9 @@
    :name "find-ns-decls-in-dir",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L74",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L74",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-ns-decls-in-dir",
    :doc
@@ -2023,9 +2023,9 @@
    :name "find-ns-decls-in-jarfile",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L105",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L105",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-ns-decls-in-jarfile",
    :doc
@@ -2038,9 +2038,9 @@
    :name "find-ns-decls-on-classpath",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L123",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L123",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-ns-decls-on-classpath",
    :doc
@@ -2053,9 +2053,9 @@
    :name "ns-decl?",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L47",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L47",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/ns-decl?",
    :doc "Returns true if form is a (ns ...) declaration.",
@@ -2067,9 +2067,9 @@
    :name "read-file-ns-decl",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L66",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L66",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/read-file-ns-decl",
    :doc
@@ -2082,9 +2082,9 @@
    :name "read-ns-decl",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L52",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L52",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/read-ns-decl",
    :doc
@@ -2097,9 +2097,9 @@
    :name "read-ns-decl-from-jarfile-entry",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L94",
+   "http://github.com/clojure/clojure-contrib/blob/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L94",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/e294ae2a5207b92998e1eb227f9d853a8a8cf606/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/read-ns-decl-from-jarfile-entry",
    :doc
