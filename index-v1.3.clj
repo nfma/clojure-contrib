@@ -1905,9 +1905,9 @@
    :name "clojure-source-file?",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L28",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L28",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/clojure-source-file?",
    :doc "Returns true if file is a normal file with a .clj extension.",
@@ -1919,24 +1919,24 @@
    :name "clojure-sources-in-jar",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L88",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L89",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/clojure-sources-in-jar",
    :doc
    "Returns a sequence of filenames ending in .clj found in the JAR file.",
    :var-type "function",
-   :line 88,
+   :line 89,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([form]),
    :name "comment?",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L42",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L42",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/comment?",
    :doc "Returns true if form is a (comment ...)",
@@ -1948,9 +1948,9 @@
    :name "find-clojure-sources-in-dir",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L34",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L34",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-clojure-sources-in-dir",
    :doc
@@ -1963,99 +1963,99 @@
    :name "find-namespaces-in-dir",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L79",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L80",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-namespaces-in-dir",
    :doc
    "Searches dir recursively for (ns ...) declarations in Clojure\nsource files; returns the symbol names of the declared namespaces.",
    :var-type "function",
-   :line 79,
+   :line 80,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([jarfile]),
    :name "find-namespaces-in-jarfile",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L112",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L113",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-namespaces-in-jarfile",
    :doc
    "Searches the JAR file for Clojure source files containing (ns ...)\ndeclarations.  Returns a sequence of the symbol names of the\ndeclared namespaces.",
    :var-type "function",
-   :line 112,
+   :line 113,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([]),
    :name "find-namespaces-on-classpath",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L131",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L132",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-namespaces-on-classpath",
    :doc
    "Searches CLASSPATH (both directories and JAR files) for Clojure\nsource files containing (ns ...) declarations.  Returns a sequence\nof the symbol names of the declared namespaces.",
    :var-type "function",
-   :line 131,
+   :line 132,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([dir]),
    :name "find-ns-decls-in-dir",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L73",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L74",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-ns-decls-in-dir",
    :doc
    "Searches dir recursively for (ns ...) declarations in Clojure\nsource files; returns the unevaluated ns declarations.",
    :var-type "function",
-   :line 73,
+   :line 74,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([jarfile]),
    :name "find-ns-decls-in-jarfile",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L104",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L105",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-ns-decls-in-jarfile",
    :doc
    "Searches the JAR file for Clojure source files containing (ns ...)\ndeclarations; returns the unevaluated ns declarations.",
    :var-type "function",
-   :line 104,
+   :line 105,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([]),
    :name "find-ns-decls-on-classpath",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L122",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L123",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/find-ns-decls-on-classpath",
    :doc
    "Searches CLASSPATH (both directories and JAR files) for Clojure\nsource files containing (ns ...) declarations.  Returns a sequence\nof the unevaluated ns declaration forms.",
    :var-type "function",
-   :line 122,
+   :line 123,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([form]),
    :name "ns-decl?",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L47",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L47",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/ns-decl?",
    :doc "Returns true if form is a (ns ...) declaration.",
@@ -2067,24 +2067,24 @@
    :name "read-file-ns-decl",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L65",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L66",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/read-file-ns-decl",
    :doc
    "Attempts to read a (ns ...) declaration from file, and returns the\nunevaluated form.  Returns nil if read fails, or if the first form\nis not a ns declaration.",
    :var-type "function",
-   :line 65,
+   :line 66,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([rdr]),
    :name "read-ns-decl",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L52",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L52",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/read-ns-decl",
    :doc
@@ -2097,15 +2097,15 @@
    :name "read-ns-decl-from-jarfile-entry",
    :namespace "clojure.contrib.find-namespaces",
    :source-url
-   "http://github.com/clojure/clojure-contrib/blob/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L93",
+   "http://github.com/clojure/clojure-contrib/blob/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj#L94",
    :raw-source-url
-   "http://github.com/clojure/clojure-contrib/raw/a6a92b9b3d2bfd9a56e1e5e9cfba706d1aeeaae5/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
+   "http://github.com/clojure/clojure-contrib/raw/ec71724888f46dd447e9cea881b476caf0778270/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//find-namespaces-api.html#clojure.contrib.find-namespaces/read-ns-decl-from-jarfile-entry",
    :doc
    "Attempts to read a (ns ...) declaration from the named entry in the\nJAR file, and returns the unevaluated form.  Returns nil if the read\nfails, or if the first form is not a ns declaration.",
    :var-type "function",
-   :line 93,
+   :line 94,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/find-namespaces/src/main/clojure/clojure/contrib/find_namespaces.clj"}
   {:arglists ([getter setter] [getter setter & keyvals]),
