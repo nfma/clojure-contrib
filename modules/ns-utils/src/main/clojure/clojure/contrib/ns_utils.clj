@@ -67,6 +67,28 @@
   (doseq [item (ns-vars ns)]
     (println item)))
 
+(defn- print-doc [m]
+  (println "-------------------------")
+  (println (str (when-let [ns (:ns m)] (str (ns-name ns) "/")) (:name m)))
+  (cond
+    (:forms m) (doseq [f (:forms m)]
+                 (print "  ")
+                 (prn f))
+    (:arglists m) (prn (:arglists m)))
+  (if (:special-form m)
+    (do
+      (println "Special Form")
+      (println " " (:doc m)) 
+      (if (contains? m :url)
+        (when (:url m)
+          (println (str "\n  Please see http://clojure.org/" (:url m))))
+        (println (str "\n  Please see http://clojure.org/special_forms#"
+                      (:name m)))))
+    (do
+      (when (:macro m)
+        (println "Macro")) 
+      (println " " (:doc m)))))
+
 (defn print-docs
   "Prints documentation for the public vars in a namespace"
   [ns]
