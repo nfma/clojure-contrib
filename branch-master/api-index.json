@@ -4933,37 +4933,37 @@
    "name":"dir",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L84",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L106",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/dir",
    "doc":"Prints a sorted directory of public vars in a namespace",
    "var-type":"macro",
-   "line":84,
+   "line":106,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj"},
   {"arglists":[["nsname"]],
    "name":"docs",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L89",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L111",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/docs",
    "doc":"Prints documentation for the public vars in a namespace",
    "var-type":"macro",
-   "line":89,
+   "line":111,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj"},
   {"arglists":[["ns-sym"]],
    "name":"get-ns",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L50",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L50",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/get-ns",
    "doc":
@@ -4976,24 +4976,24 @@
    "name":"immigrate",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L94",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L116",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/immigrate",
    "doc":
    "Create a public var in this namespace for each public var in the\nnamespaces named by ns-names. The created vars have the same name, root\nbinding, and metadata as the original except that their :ns metadata\nvalue is this namespace.",
    "var-type":"function",
-   "line":94,
+   "line":116,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj"},
   {"arglists":[["ns"]],
    "name":"ns-vars",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L58",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L58",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/ns-vars",
    "doc":
@@ -5006,9 +5006,9 @@
    "name":"print-dir",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L64",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L64",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/print-dir",
    "doc":"Prints a sorted directory of public vars in a namespace",
@@ -5020,29 +5020,29 @@
    "name":"print-docs",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L70",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L92",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/print-docs",
    "doc":"Prints documentation for the public vars in a namespace",
    "var-type":"function",
-   "line":70,
+   "line":92,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj"},
   {"arglists":[["nsname"]],
    "name":"vars",
    "namespace":"clojure.contrib.ns-utils",
    "source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L78",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/blob\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj#L100",
    "raw-source-url":
-   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/6b0ced91e42eca3be551f10468abcb9a2983d7b8\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
+   "http:\/\/github.com\/clojure\/clojure-contrib\/raw\/5db83e6a4b81b571d828c17c4bbebe58995587c2\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj",
    "wiki-url":
    "http:\/\/clojure.github.com\/clojure-contrib\/\/ns-utils-api.html#clojure.contrib.ns-utils\/vars",
    "doc":
    "Returns a sorted seq of symbols naming public vars in\na namespace",
    "var-type":"macro",
-   "line":78,
+   "line":100,
    "file":
    "\/home\/tom\/src\/clj\/autodoc-stable\/..\/autodoc-work-area\/clojure-contrib\/src\/modules\/ns-utils\/src\/main\/clojure\/clojure\/contrib\/ns_utils.clj"},
   {"arglists":[["&", "keyvals"]],
