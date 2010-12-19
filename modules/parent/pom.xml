@@ -19,16 +19,32 @@
     <developerConnection>scm:git:git@github.com:clojure/clojure-contrib.git</developerConnection>
     <url>git@github.com:clojure/clojure-contrib.git</url>
   </scm>
+  <repositories>
+    <repository>
+      <id>clojure-snapshots</id>
+      <url>http://build.clojure.org/snapshots</url>
+      <releases>
+	<enabled>false</enabled>
+      </releases>
+      <snapshots>
+	<enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>clojure-releases</id>
+      <url>http://build.clojure.org/releases</url>
+      <releases>
+	<enabled>true</enabled>
+      </releases>
+      <snapshots>
+	<enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
   <distributionManagement>
     <repository>
       <id>clojure-releases</id>
-      <name>Clojure release repository</name>
       <url>scp://build.clojure.org/srv/www/releases</url>
     </repository>
-    <snapshotRepository>
-      <id>clojure-snapshots</id>
-      <name>Clojure SNAPSHOT repository</name>
-      <url>scp://build.clojure.org/srv/www/snapshots</url>
-    </snapshotRepository>
   </distributionManagement>
 </project>
