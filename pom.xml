@@ -107,7 +107,13 @@
   <distributionManagement>
     <repository>
       <id>clojure-releases</id>
+      <name>Clojure release repository</name>
       <url>scp://build.clojure.org/srv/www/releases</url>
     </repository>
+    <snapshotRepository>
+      <id>clojure-releases</id>
+      <name>Clojure SNAPSHOT repository</name>
+      <url>scp://build.clojure.org/srv/www/snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
 </project>
