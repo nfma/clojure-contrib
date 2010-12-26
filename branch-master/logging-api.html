@@ -6,9 +6,6 @@
     <link media="all" type="text/css" href="../static/clojure.css" rel="stylesheet" />
     <link media="all" type="text/css" href="../static/wiki.css" rel="stylesheet" />
     <link media="all" type="text/css" href="../static/internal.css" rel="stylesheet" />
-    <!-- TODO: are we using these (from clojure.org)? If so, add the files -->
-    <script src="file/view/code_highlighter.js" type="text/javascript"></script>
-    <script src="file/view/clojure.js" type="text/javascript"></script>
     <style>.menuWrapper{height: 36px;}</style>
     <!--[if lte IE 6]>
     <link rel="stylesheet" href="http://www.wikispaces.com/_/2009051601/s/internal_ie.css" type="text/css" />
@@ -37,7 +34,7 @@ namespace.
     </ul>
     <span class="toc-header">Namespaces</span>
     <ul id="left-sidebar-list">
-      <li><a href="accumulators-api.html" class="wiki_link">accumulators</a></li><li><a href="agent-utils-api.html" class="wiki_link">agent-utils</a></li><li><a href="base64-api.html" class="wiki_link">base64</a></li><li><a href="classpath-api.html" class="wiki_link">classpath</a></li><li><a href="combinatorics-api.html" class="wiki_link">combinatorics</a></li><li><a href="command-line-api.html" class="wiki_link">command-line</a></li><li><a href="complex-numbers-api.html" class="wiki_link">complex-numbers</a></li><li><a href="cond-api.html" class="wiki_link">cond</a></li><li><a href="condition-api.html" class="wiki_link">condition</a></li><li><a href="core-api.html" class="wiki_link">core</a></li><li><a href="dataflow-api.html" class="wiki_link">dataflow</a></li><li><a href="datalog-api.html" class="wiki_link">datalog</a></li><li><a href="def-api.html" class="wiki_link">def</a></li><li><a href="error-kit-api.html" class="wiki_link">error-kit</a></li><li><a href="except-api.html" class="wiki_link">except</a></li><li><a href="fcase-api.html" class="wiki_link">fcase</a></li><li><a href="find-namespaces-api.html" class="wiki_link">find-namespaces</a></li><li><a href="fnmap-api.html" class="wiki_link">fnmap</a></li><li><a href="gen-html-docs-api.html" class="wiki_link">gen-html-docs</a></li><li><a href="generic.arithmetic-api.html" class="wiki_link">generic.arithmetic</a></li><li><a href="generic.collection-api.html" class="wiki_link">generic.collection</a></li><li><a href="generic.comparison-api.html" class="wiki_link">generic.comparison</a></li><li><a href="generic.functor-api.html" class="wiki_link">generic.functor</a></li><li><a href="generic.math-functions-api.html" class="wiki_link">generic.math-functions</a></li><li><a href="graph-api.html" class="wiki_link">graph</a></li><li><a href="greatest-least-api.html" class="wiki_link">greatest-least</a></li><li><a href="import-static-api.html" class="wiki_link">import-static</a></li><li><a href="jar-api.html" class="wiki_link">jar</a></li><li><a href="java-utils-api.html" class="wiki_link">java-utils</a></li><li><a href="jmx-api.html" class="wiki_link">jmx</a></li><li><a href="json-api.html" class="wiki_link">json</a></li><li><a href="lazy-seqs-api.html" class="wiki_link">lazy-seqs</a></li><li><a href="lazy-xml-api.html" class="wiki_link">lazy-xml</a></li><li><a href="logging-api.html" class="wiki_link">logging</a></li><li><a href="macro-utils-api.html" class="wiki_link">macro-utils</a></li><li><a href="macros-api.html" class="wiki_link">macros</a></li><li><a href="map-utils-api.html" class="wiki_link">map-utils</a></li><li><a href="math-api.html" class="wiki_link">math</a></li><li><a href="miglayout-api.html" class="wiki_link">miglayout</a></li><li><a href="mmap-api.html" class="wiki_link">mmap</a></li><li><a href="mock-api.html" class="wiki_link">mock</a></li><li><a href="monadic-io-streams-api.html" class="wiki_link">monadic-io-streams</a></li><li><a href="monads-api.html" class="wiki_link">monads</a></li><li><a href="ns-utils-api.html" class="wiki_link">ns-utils</a></li><li><a href="priority-map-api.html" class="wiki_link">priority-map</a></li><li><a href="probabilities.finite-distributions-api.html" class="wiki_link">probabilities.finite-distributions</a></li><li><a href="probabilities.monte-carlo-api.html" class="wiki_link">probabilities.monte-carlo</a></li><li><a href="probabilities.random-numbers-api.html" class="wiki_link">probabilities.random-numbers</a></li><li><a href="profile-api.html" class="wiki_link">profile</a></li><li><a href="prxml-api.html" class="wiki_link">prxml</a></li><li><a href="reflect-api.html" class="wiki_link">reflect</a></li><li><a href="repl-ln-api.html" class="wiki_link">repl-ln</a></li><li><a href="repl-utils-api.html" class="wiki_link">repl-utils</a></li><li><a href="seq-api.html" class="wiki_link">seq</a></li><li><a href="server-socket-api.html" class="wiki_link">server-socket</a></li><li><a href="set-api.html" class="wiki_link">set</a></li><li><a href="singleton-api.html" class="wiki_link">singleton</a></li><li><a href="sql-api.html" class="wiki_link">sql</a></li><li><a href="stream-utils-api.html" class="wiki_link">stream-utils</a></li><li><a href="strint-api.html" class="wiki_link">strint</a></li><li><a href="swing-utils-api.html" class="wiki_link">swing-utils</a></li><li><a href="test-base64-api.html" class="wiki_link">test-base64</a></li><li><a href="trace-api.html" class="wiki_link">trace</a></li><li><a href="types-api.html" class="wiki_link">types</a></li><li><a href="with-ns-api.html" class="wiki_link">with-ns</a></li><li><a href="zip-filter-api.html" class="wiki_link">zip-filter</a></li>
+      <li><a href="accumulators-api.html" class="wiki_link">accumulators</a></li><li><a href="agent-utils-api.html" class="wiki_link">agent-utils</a></li><li><a href="base64-api.html" class="wiki_link">base64</a></li><li><a href="classpath-api.html" class="wiki_link">classpath</a></li><li><a href="combinatorics-api.html" class="wiki_link">combinatorics</a></li><li><a href="command-line-api.html" class="wiki_link">command-line</a></li><li><a href="complex-numbers-api.html" class="wiki_link">complex-numbers</a></li><li><a href="cond-api.html" class="wiki_link">cond</a></li><li><a href="condition-api.html" class="wiki_link">condition</a></li><li><a href="core-api.html" class="wiki_link">core</a></li><li><a href="dataflow-api.html" class="wiki_link">dataflow</a></li><li><a href="datalog-api.html" class="wiki_link">datalog</a></li><li><a href="def-api.html" class="wiki_link">def</a></li><li><a href="error-kit-api.html" class="wiki_link">error-kit</a></li><li><a href="except-api.html" class="wiki_link">except</a></li><li><a href="fcase-api.html" class="wiki_link">fcase</a></li><li><a href="find-namespaces-api.html" class="wiki_link">find-namespaces</a></li><li><a href="fnmap-api.html" class="wiki_link">fnmap</a></li><li><a href="gen-html-docs-api.html" class="wiki_link">gen-html-docs</a></li><li><a href="generic.arithmetic-api.html" class="wiki_link">generic.arithmetic</a></li><li><a href="generic.collection-api.html" class="wiki_link">generic.collection</a></li><li><a href="generic.comparison-api.html" class="wiki_link">generic.comparison</a></li><li><a href="generic.functor-api.html" class="wiki_link">generic.functor</a></li><li><a href="generic.math-functions-api.html" class="wiki_link">generic.math-functions</a></li><li><a href="graph-api.html" class="wiki_link">graph</a></li><li><a href="greatest-least-api.html" class="wiki_link">greatest-least</a></li><li><a href="import-static-api.html" class="wiki_link">import-static</a></li><li><a href="jar-api.html" class="wiki_link">jar</a></li><li><a href="java-utils-api.html" class="wiki_link">java-utils</a></li><li><a href="jmx-api.html" class="wiki_link">jmx</a></li><li><a href="json-api.html" class="wiki_link">json</a></li><li><a href="lazy-seqs-api.html" class="wiki_link">lazy-seqs</a></li><li><a href="lazy-xml-api.html" class="wiki_link">lazy-xml</a></li><li><a href="logging-api.html" class="wiki_link">logging</a></li><li><a href="macro-utils-api.html" class="wiki_link">macro-utils</a></li><li><a href="macros-api.html" class="wiki_link">macros</a></li><li><a href="map-utils-api.html" class="wiki_link">map-utils</a></li><li><a href="math-api.html" class="wiki_link">math</a></li><li><a href="miglayout-api.html" class="wiki_link">miglayout</a></li><li><a href="mmap-api.html" class="wiki_link">mmap</a></li><li><a href="mock-api.html" class="wiki_link">mock</a></li><li><a href="monadic-io-streams-api.html" class="wiki_link">monadic-io-streams</a></li><li><a href="monads-api.html" class="wiki_link">monads</a></li><li><a href="ns-utils-api.html" class="wiki_link">ns-utils</a></li><li><a href="priority-map-api.html" class="wiki_link">priority-map</a></li><li><a href="probabilities.finite-distributions-api.html" class="wiki_link">probabilities.finite-distributions</a></li><li><a href="probabilities.monte-carlo-api.html" class="wiki_link">probabilities.monte-carlo</a></li><li><a href="probabilities.random-numbers-api.html" class="wiki_link">probabilities.random-numbers</a></li><li><a href="profile-api.html" class="wiki_link">profile</a></li><li><a href="prxml-api.html" class="wiki_link">prxml</a></li><li><a href="reflect-api.html" class="wiki_link">reflect</a></li><li><a href="repl-ln-api.html" class="wiki_link">repl-ln</a></li><li><a href="repl-utils-api.html" class="wiki_link">repl-utils</a></li><li><a href="seq-api.html" class="wiki_link">seq</a></li><li><a href="server-socket-api.html" class="wiki_link">server-socket</a></li><li><a href="set-api.html" class="wiki_link">set</a></li><li><a href="singleton-api.html" class="wiki_link">singleton</a></li><li><a href="sql-api.html" class="wiki_link">sql</a></li><li><a href="stream-utils-api.html" class="wiki_link">stream-utils</a></li><li><a href="strint-api.html" class="wiki_link">strint</a></li><li><a href="swing-utils-api.html" class="wiki_link">swing-utils</a></li><li><a href="trace-api.html" class="wiki_link">trace</a></li><li><a href="types-api.html" class="wiki_link">types</a></li><li><a href="with-ns-api.html" class="wiki_link">with-ns</a></li><li><a href="zip-filter-api.html" class="wiki_link">zip-filter</a></li>
     </ul>
     <div class="BranchTOC">
       <span class="toc-header">Other Versions</span>
@@ -199,7 +196,7 @@ in the user namespace, and :warn or higher in all other namespaces.</pre>
 agent. Defaults to nil. See log* for details.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L94" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L94" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -212,7 +209,7 @@ returned from find-factory. Can be rebound to provide alternate logging
 implementations</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L488" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L488" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -223,7 +220,7 @@ implementations</pre>
 disabled. See log* for details.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L84" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L84" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -234,7 +231,7 @@ disabled. See log* for details.</pre>
 running transaction. Defaults to #{:info :warn}. See log* for details.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L89" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L89" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -246,7 +243,7 @@ implementation.  Implementations should at least support the six specified
 logging levels if they wish to benefit from the level-specific macros.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L62" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L62" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -259,7 +256,7 @@ Implementations should be bound to *log-factory* in order to be picked up by
 this library.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L73" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L73" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -271,7 +268,7 @@ this library.</pre>
 nil if not available. End-users should not need to call this.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L334" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L334" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -283,7 +280,7 @@ nil if not available. End-users should not need to call this.</pre>
   <pre id="var-docstr">Debug level logging using print-style args.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L265" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L265" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -295,7 +292,7 @@ nil if not available. End-users should not need to call this.</pre>
   <pre id="var-docstr">Debug level logging using format.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L301" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L301" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -309,7 +306,7 @@ should only be necessary if one needs to execute alternate code paths beyond
 whether the log should be written to.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L164" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L164" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -321,7 +318,7 @@ whether the log should be written to.</pre>
   <pre id="var-docstr">Error level logging using print-style args.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L283" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L283" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -333,7 +330,7 @@ whether the log should be written to.</pre>
   <pre id="var-docstr">Error level logging using format.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L319" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L319" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -345,7 +342,7 @@ whether the log should be written to.</pre>
   <pre id="var-docstr">Fatal level logging using print-style args.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L289" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L289" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -357,7 +354,7 @@ whether the log should be written to.</pre>
   <pre id="var-docstr">Fatal level logging using format.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L325" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L325" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -370,7 +367,7 @@ slf4j-logging, log4j-logging, or java-util-logging. End-users should not need
 to call this.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L475" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L475" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -429,7 +426,7 @@ to call this.</pre>
   <pre id="var-docstr">Info level logging using print-style args.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L271" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L271" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -441,7 +438,7 @@ to call this.</pre>
   <pre id="var-docstr">Info level logging using format.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L307" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L307" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -453,7 +450,7 @@ to call this.</pre>
 or nil if not available. End-users should not need to call this.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L439" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L439" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -468,7 +465,7 @@ or nil if not available. End-users should not need to call this.</pre>
 for more details.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L124" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L124" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -490,7 +487,7 @@ One can override the above by setting *force* to :direct or :agent; all
 subsequent writes will be direct or via an agent, respectively.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L99" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L99" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -510,7 +507,7 @@ Warning: if the logging implementation is configured to output to System.out
 result in StackOverflowException when writing to the log.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L207" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L207" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -521,7 +518,7 @@ result in StackOverflowException when writing to the log.</pre>
   <pre id="var-docstr">Creates a PrintStream that will output to the log at the specified level.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L189" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L189" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -532,7 +529,7 @@ result in StackOverflowException when writing to the log.</pre>
   <pre id="var-docstr">Restores System.out and System.err to their original values.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L227" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L227" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -544,7 +541,7 @@ result in StackOverflowException when writing to the log.</pre>
 not available. End-users should not need to call this.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L405" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L405" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -557,7 +554,7 @@ not available. End-users should not need to call this.</pre>
 throwable as its second arg. See level-specific macros, e.g., debugf.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L151" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L151" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -570,7 +567,7 @@ throwable as its second arg. See level-specific macros, e.g., debugf.</pre>
 second arg. See level-specific macros, e.g., debug.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L138" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L138" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -582,7 +579,7 @@ second arg. See level-specific macros, e.g., debug.</pre>
 not available. End-users should not need to call this.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L369" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L369" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -595,7 +592,7 @@ not available. End-users should not need to call this.</pre>
 result of expr. Defaults to debug log level.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L173" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L173" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -607,7 +604,7 @@ result of expr. Defaults to debug log level.</pre>
   <pre id="var-docstr">Trace level logging using print-style args.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L259" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L259" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -619,7 +616,7 @@ result of expr. Defaults to debug log level.</pre>
   <pre id="var-docstr">Trace level logging using format.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L295" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L295" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -631,7 +628,7 @@ result of expr. Defaults to debug log level.</pre>
   <pre id="var-docstr">Warn level logging using print-style args.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L277" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L277" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -643,7 +640,7 @@ result of expr. Defaults to debug log level.</pre>
   <pre id="var-docstr">Warn level logging using format.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L313" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L313" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -658,7 +655,7 @@ specified log-ns value will be used to namespace all log entries.
 By default *out* and *err* write to :info and :error, respectively.</pre>
   
   
-  <a href="http://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L236" id="var-source">Source</a>
+  <a href="https://github.com/clojure/clojure-contrib/blob/9212f644aa7ef1f13271aa9f941d2c6f8574a571/modules/logging/src/main/clojure/clojure/contrib/logging.clj#L236" id="var-source">Source</a>
 </div>
 
 
