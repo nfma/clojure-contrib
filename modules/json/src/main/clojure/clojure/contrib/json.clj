@@ -278,7 +278,10 @@
   (if (.isArray (class x))
     (write-json (seq x) out escape-unicode?)
     (throw (Exception. (str "Don't know how to write JSON of " (class x))))))
-  
+
+(defn- write-json-ratio [x out escape-unicode?]
+  (write-json (double x) out escape-unicode?))
+
 (extend nil Write-JSON
         {:write-json write-json-null})
 (extend clojure.lang.Named Write-JSON
@@ -291,6 +294,8 @@
         {:write-json write-json-bignum})
 (extend java.math.BigDecimal Write-JSON
         {:write-json write-json-bignum})
+(extend clojure.lang.Ratio Write-JSON
+        {:write-json write-json-ratio})
 (extend java.lang.CharSequence Write-JSON
         {:write-json write-json-string})
 (extend java.util.Map Write-JSON

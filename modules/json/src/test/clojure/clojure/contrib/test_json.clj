@@ -150,6 +150,9 @@
 (deftest can-print-json-null
   (is (= "null" (json-str nil))))
 
+(deftest can-print-ratios-as-doubles
+  (is (= "0.75" (json-str 3/4))))
+
 (deftest can-print-json-arrays
   (is (= "[1,2,3]" (json-str [1 2 3])))
   (is (= "[1,2,3]" (json-str (list 1 2 3))))
