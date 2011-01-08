@@ -2897,45 +2897,45 @@
    :name "json-str",
    :namespace "clojure.contrib.json",
    :source-url
-   "https://github.com/clojure/clojure-contrib/blob/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj#L305",
+   "https://github.com/clojure/clojure-contrib/blob/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj#L310",
    :raw-source-url
-   "https://github.com/clojure/clojure-contrib/raw/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj",
+   "https://github.com/clojure/clojure-contrib/raw/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//json-api.html#clojure.contrib.json/json-str",
    :doc
    "Converts x to a JSON-formatted string.\n\nValid options are:\n  :escape-unicode false\n      to turn of \\uXXXX escapes of Unicode characters.",
    :var-type "function",
-   :line 305,
+   :line 310,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/json/src/main/clojure/clojure/contrib/json.clj"}
   {:arglists ([x & options]),
    :name "pprint-json",
    :namespace "clojure.contrib.json",
    :source-url
-   "https://github.com/clojure/clojure-contrib/blob/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj#L352",
+   "https://github.com/clojure/clojure-contrib/blob/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj#L357",
    :raw-source-url
-   "https://github.com/clojure/clojure-contrib/raw/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj",
+   "https://github.com/clojure/clojure-contrib/raw/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//json-api.html#clojure.contrib.json/pprint-json",
    :doc
    "Pretty-prints JSON representation of x to *out*.\n\nValid options are:\n  :escape-unicode false\n      to turn off \\uXXXX escapes of Unicode characters.",
    :var-type "function",
-   :line 352,
+   :line 357,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/json/src/main/clojure/clojure/contrib/json.clj"}
   {:arglists ([x & options]),
    :name "print-json",
    :namespace "clojure.contrib.json",
    :source-url
-   "https://github.com/clojure/clojure-contrib/blob/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj#L318",
+   "https://github.com/clojure/clojure-contrib/blob/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj#L323",
    :raw-source-url
-   "https://github.com/clojure/clojure-contrib/raw/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj",
+   "https://github.com/clojure/clojure-contrib/raw/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//json-api.html#clojure.contrib.json/print-json",
    :doc
    "Write JSON-formatted output to *out*.\n\nValid options are:\n  :escape-unicode false\n      to turn off \\uXXXX escapes of Unicode characters.",
    :var-type "function",
-   :line 318,
+   :line 323,
    :file
    "/home/tom/src/clj/autodoc-stable/../autodoc-work-area/clojure-contrib/src/modules/json/src/main/clojure/clojure/contrib/json.clj"}
   {:arglists
@@ -2945,9 +2945,9 @@
    :name "read-json",
    :namespace "clojure.contrib.json",
    :source-url
-   "https://github.com/clojure/clojure-contrib/blob/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj#L186",
+   "https://github.com/clojure/clojure-contrib/blob/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj#L186",
    :raw-source-url
-   "https://github.com/clojure/clojure-contrib/raw/01036ea181b979b5ff190f2eb44c2bf3ca9e1c3b/modules/json/src/main/clojure/clojure/contrib/json.clj",
+   "https://github.com/clojure/clojure-contrib/raw/ea62e3ec4c3a3b977b672ed19cc5cba999f1f700/modules/json/src/main/clojure/clojure/contrib/json.clj",
    :wiki-url
    "http://clojure.github.com/clojure-contrib//json-api.html#clojure.contrib.json/read-json",
    :doc
