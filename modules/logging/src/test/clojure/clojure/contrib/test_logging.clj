@@ -220,7 +220,7 @@
   (is (= ["clojure.contrib.test-logging"
           :debug
           nil
-          "(+ 4 5)\n=> 9"]
+          (format "(+ 4 5)%n=> 9")]
         (peek @*entries*))))
 
 (deftest spy-level
@@ -228,7 +228,7 @@
   (is (= ["clojure.contrib.test-logging"
           :fatal
           nil
-          "(+ 4 5)\n=> 9"]
+          (format "(+ 4 5)%n=> 9")]
         (peek @*entries*))))
 
 (comment
