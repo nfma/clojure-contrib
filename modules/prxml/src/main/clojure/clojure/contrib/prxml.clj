@@ -59,7 +59,9 @@ for details."}
   (print " ")
   (print (as-str name))
   (print "=\"")
-  (print (escape-xml (str value)))
+  (if (vector? value) ;so that we can have attributes unescaped
+      (print-xml value)
+    (print (escape-xml (str value))))
   (print "\""))
 
 (defmulti ^{:private true} print-xml-tag (fn [tag attrs content] tag))
